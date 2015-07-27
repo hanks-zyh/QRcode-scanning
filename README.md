@@ -2,6 +2,13 @@
 use ZXing to recognize QRcode
 
 ----
+![](https://github.com/hanks-zyh/QRcode-scanning/blob/master/screenshoot/S50727-102003.jpg)
+![](https://github.com/hanks-zyh/QRcode-scanning/blob/master/screenshoot/S50727-101952.jpg)
+![](https://github.com/hanks-zyh/QRcode-scanning/blob/master/screenshoot/S50727-102516.jpg)
+![](https://github.com/hanks-zyh/QRcode-scanning/blob/master/screenshoot/S50727-102543.jpg)
+![](https://github.com/hanks-zyh/QRcode-scanning/blob/master/screenshoot/S50727-102520.jpg)
+
+----
 
                                  Apache License
                            Version 2.0, January 2004
