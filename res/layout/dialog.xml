@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="签到结果"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <ImageButton
+            android:id="@+id/ib_del"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:padding="14dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_del" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp" >
+
+        <ImageView
+            android:id="@+id/iv_result"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pic_success" />
+
+        <TextView
+            android:id="@+id/tv_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_result"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/ic_a"
+            android:drawablePadding="4dp"
+            android:text="vc++程序设计"
+            android:textColor="@color/encode_view" />
+
+        <TextView
+            android:id="@+id/tv_course_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_course"
+            android:layout_below="@+id/tv_course"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_b"
+            android:drawablePadding="4dp"
+            android:text="计算机综合楼"
+            android:textColor="@color/encode_view" />
+
+        <TextView
+            android:id="@+id/tv_dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_course_location"
+            android:layout_below="@+id/tv_course_location"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_c"
+            android:drawablePadding="4dp"
+            android:text="距上课地点30米"
+            android:textColor="@color/encode_view" />
+
+        <Button
+            android:id="@+id/tv_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dis"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="32dp"
+            android:text="知道了"
+            android:textColor="@color/encode_view" />
+    </RelativeLayout>
+
+</LinearLayout>
